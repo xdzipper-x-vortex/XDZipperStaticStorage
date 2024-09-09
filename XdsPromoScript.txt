@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XDZIPPER Games</title>
+    <link rel="icon"
+        href="https://lh5.googleusercontent.com/w9iTr2w7NxClWR3IwyxocYQlRFE_tfaWVr_2E1r3gE8d0eiXWnpeA2XeR0C7pvoAq4hjMPlGAWRoRaDhbLZde-XjOebEEt6raQrxaOO8MglN3jNY"
+        type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&amp;display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-color: #001f3f;
+            color: white;
+            font-family: 'Lexend', sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            width: 400px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .welcome-text {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .projects-text {
+            font-size: 18px;
+            margin-top: 10px;
+            text-align: center;
+            color: #FFD700; /* Gold color */
+            margin-bottom: 30px; /* Add some space below this text */
+        }
+
+        .starlight-button {
+            background-color: #FFD700;
+            color: #001f3f;
+            font-size: 18px;
+            padding: 10px 30px;
+            border: none;
+            border-radius: 30px;
+            text-decoration: none;
+            text-align: center;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .starlight-button:hover {
+            background-color: #FFC300;
+        }
+
+        .story-text {
+            font-size: 16px;
+            max-width: 800px;
+            text-align: justify;
+            line-height: 1.5;
+            padding: 0 20px;
+        }
+
+        a {
+            color: #FFD700;
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 14px;
+            color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/XDZIPPER94/verceltest/892953e5d7c8d370b0d6bc572f8d7c9c19176556/xdzipper%20games%20(1).svg"
+            alt="Logo" class="logo">
+
+        <div class="welcome-text">
+            XDZIPPER's Official Website
+        </div>
+
+        <!-- Moved text below welcome text -->
+        <div class="projects-text">
+            Projects made by me are blow this text.
+        </div>
+
+        <a href="http://sites.google.com/view/starlight-math" target="_blank" class="starlight-button">
+            Starlight Unblocker
+        </a>
+        <a href="https://xdzipper-x-vortex.github.io/vortex1/" target="_blank" class="starlight-button">
+            Vortex Games
+        </a>
+
+    </div>
+
+</body>
+
+</html>
